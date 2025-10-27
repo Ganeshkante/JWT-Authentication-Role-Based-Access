@@ -85,8 +85,7 @@ POST /auth/login
 ### 3️⃣ Access Protected API
 GET /admin/welcome
 
-Header → Authorization: Bearer <token>
-
+Header → Authorization: Bearer your_token
 
 ✅ Response:
 
