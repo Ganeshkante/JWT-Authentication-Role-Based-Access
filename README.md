@@ -99,25 +99,25 @@ Welcome, ADMIN!
 com.example.jwt_mini
 │
 ├── controller
-│   ├── AuthController.java
-│   ├── UserController.java
-│   └── AdminController.java
+│ ├── AuthController.java # Handles registration and login
+│ ├── UserController.java # Accessible by USER role
+│ └── AdminController.java # Accessible by ADMIN role
 │
 ├── service
-│   └── AuthService.java
+│ └── AuthService.java # Handles authentication logic
 │
 ├── security
-│   ├── JwtFilter.java
-│   ├── JwtUtil.java
-│   └── SecurityConfig.java
+│ ├── JwtFilter.java # Filters and validates JWT tokens
+│ ├── JwtUtil.java # Generates and verifies tokens
+│ └── SecurityConfig.java # Configures Spring Security
 │
 ├── model
-│   └── User.java
+│ └── User.java # Entity class for User details
 │
 ├── repository
-│   └── UserRepository.java
+│ └── UserRepository.java # Interface for database operations
 │
-└── JwtMiniApplication.java
+└── JwtMiniApplication.java # Main Spring Boot application class
 
 
 🏁 Conclusion
