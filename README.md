@@ -96,6 +96,7 @@ Welcome, ADMIN!
 
 📁 Project Structure
 
+```
 com.example.jwt_mini
 │
 ├── controller
@@ -119,6 +120,7 @@ com.example.jwt_mini
 │
 └── JwtMiniApplication.java # Main Spring Boot application class
 
+```
 
 🏁 Conclusion
 
