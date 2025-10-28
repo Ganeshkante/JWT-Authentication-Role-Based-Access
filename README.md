@@ -133,25 +133,25 @@ src
 com.example.jwt_mini
 │
 ├── controller
-│ ├── AuthController.java # Handles registration and login
-│ ├── UserController.java # Accessible by USER role
-│ └── AdminController.java # Accessible by ADMIN role
+│ ├── AuthController.java       # Handles registration and login
+│ ├── UserController.java       # Accessible by USER role
+│ └── AdminController.java      # Accessible by ADMIN role
 │
 ├── service
-│ └── AuthService.java # Handles authentication logic
+│ └── AuthService.java          # Handles authentication logic
 │
 ├── security
-│ ├── JwtFilter.java # Filters and validates JWT tokens
-│ ├── JwtUtil.java # Generates and verifies tokens
-│ └── SecurityConfig.java # Configures Spring Security
+│ ├── JwtFilter.java            # Filters and validates JWT tokens
+│ ├── JwtUtil.java              # Generates and verifies tokens
+│ └── SecurityConfig.java       # Configures Spring Security
 │
 ├── model
-│ └── User.java # Entity class for User details
+│ └── User.java                 # Entity class for User details
 │
 ├── repository
-│ └── UserRepository.java # Interface for database operations
+│ └── UserRepository.java       # Interface for database operations
 │
-└── JwtMiniApplication.java # Main Spring Boot application class
+└── JwtMiniApplication.java     # Main Spring Boot application class
 
 ```
 
