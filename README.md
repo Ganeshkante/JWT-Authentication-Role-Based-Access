@@ -65,6 +65,8 @@ POST /auth/register
 ✅ Response:  
 `User registered successfully!`
 
+🖼️ Screenshot:
+
 <img width="1920" height="1080" alt="Screenshot 2025-10-27 232845" src="https://github.com/user-attachments/assets/5acbd6b0-05fc-40f9-9692-09dbc6236802" />
 
 
@@ -82,6 +84,10 @@ POST /auth/login
 "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6..."
 }
 
+🖼️ Screenshot:
+
+<img width="1920" height="1080" alt="Screenshot 2025-10-27 232924" src="https://github.com/user-attachments/assets/62e6ab7d-d59a-4eb0-83fc-f6699d1f08e7" />
+
 
 ---
 
@@ -93,6 +99,10 @@ Header → Authorization: Bearer your_token
 ✅ Response:
 
 Welcome, ADMIN!
+
+🖼️ Screenshot:
+
+<img width="1920" height="1080" alt="Screenshot 2025-10-27 233055" src="https://github.com/user-attachments/assets/b7a95373-15c0-4323-af2d-6b636d3efa8f" />
 
 
 ---
