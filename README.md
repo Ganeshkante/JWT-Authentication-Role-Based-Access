@@ -57,7 +57,7 @@ Authorization: Bearer <token>
 POST /auth/register
 {
 "username": "Ganesh",
-"password": "dummy",
+"password": "dummy12",
 "role": "ADMIN"
 }
 
@@ -76,7 +76,7 @@ POST /auth/register
 POST /auth/login
 {
 "username": "Ganesh",
-"password": "dummy"
+"password": "dummy12"
 }
 
 ✅ Response:
