@@ -56,7 +56,7 @@ Authorization: Bearer <token>
 ### 1️⃣ Register User
 POST /auth/register
 {
-"username": "Ganesh",
+"username": "ganesh",
 "password": "dummy12",
 "role": "ADMIN"
 }
@@ -75,7 +75,7 @@ POST /auth/register
 ### 2️⃣ Login
 POST /auth/login
 {
-"username": "Ganesh",
+"username": "ganesh",
 "password": "dummy12"
 }
 
@@ -107,6 +107,25 @@ Welcome, ADMIN!
 
 ---
 
+📸 Screenshots Folder Structure
+
+```
+src
+└── main
+    └── screenshots
+        ├── user-role-screenshots
+        │   ├── user-register.png      # POST /auth/register
+        │   ├── user-login.png         # POST /auth/login
+        │   ├── user-access-denied.png        # GET /user/welcome
+        │   └── admin-access.png       # Access denied test for USER role
+        │
+        └── admin-role-screenshots
+            ├── admin-register.png     # POST /auth/register (admin)
+            ├── login.png              # POST /auth/login (admin)
+            ├── user-access.png        # Access denied test for ADMIN role
+            └── admin-access.png       # GET /admin/welcome
+
+```
 
 📁 Project Structure
 
