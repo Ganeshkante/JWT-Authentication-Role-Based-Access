@@ -155,6 +155,23 @@ com.example.jwt_mini
 
 ```
 
+⚡ How to Run
+
+Clone the repository
+
+https://github.com/Ganeshkante/JWT-Authentication-Role-Based-Access.git
+
+Test with Postman
+
+Register → /auth/register
+
+Login → /auth/login
+
+Copy token → use in Authorization header
+
+Access → /user/welcome or /admin/welcome
+
+
 🏁 Conclusion
 
 This project demonstrates JWT Authentication, Role-based Authorization, and Secure API design using Spring Boot.
