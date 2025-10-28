@@ -65,6 +65,9 @@ POST /auth/register
 ✅ Response:  
 `User registered successfully!`
 
+<img width="1920" height="1080" alt="Screenshot 2025-10-27 232845" src="https://github.com/user-attachments/assets/5acbd6b0-05fc-40f9-9692-09dbc6236802" />
+
+
 ---
 
 ### 2️⃣ Login
