@@ -161,16 +161,6 @@ Clone the repository
 
 https://github.com/Ganeshkante/JWT-Authentication-Role-Based-Access.git
 
-Test with Postman
-
-Register → /auth/register
-
-Login → /auth/login
-
-Copy token → use in Authorization header
-
-Access → /user/welcome or /admin/welcome
-
 
 🏁 Conclusion
 
